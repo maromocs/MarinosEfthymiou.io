@@ -189,3 +189,33 @@ footer {
         max-height: 300px;
     }
 }
+/* Main Section Styling */
+.main-section {
+    padding: 5rem 2rem;
+    background: #fff;
+}
+
+/* Flexbox layout for intro */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    gap: 20px; /* Adds spacing between image and heading */
+    text-align: left;
+}
+
+/* Styling the profile picture */
+.profile-picture img {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image scales without distortion */
+    object-position: top; /* Adjust the position to focus on the top of the image */
+    border: 3px solid #333; /* Optional border around the image */
+}
+
+/* Ensure the heading stays aligned with the image */
+.intro h1 {
+    margin: 0; /* Remove any default margin */
+    font-size: 2.5rem; /* Adjust the font size as needed */
+}
